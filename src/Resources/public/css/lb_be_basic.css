@@ -12,6 +12,14 @@
     background-size: 16px;	
 }
 
+/* ///// Font-styles ///// */
+.widget h3 label {
+	font-size: 1rem;
+}
+a:hover, a:active {
+	color: var(--cc-brandcolor1);
+}
+
 /* ///// Sets LB Colors for BACKGROUND in select list ///// */
 
 /* LB Brand Colors / Primary Colors Background */
@@ -450,6 +458,15 @@ button#sbtog {
 	line-height:33px;
 	border: solid 2px var(--cc-brandcolor1);
 	border-left: 0;
+}
+/* SPECIAL RULES FOR RSCEs */
+/* Width of Logo Image for // rsce_lb_nav_header_config.php */
+#pal_rsce_legend #sort_rsce_field_image li {
+	text-align:left;	
+}
+#pal_rsce_legend #sort_rsce_field_imageLogo img.gimage {
+	width:20rem;
+	margin-bottom: 0.4rem;
 }
 
 
