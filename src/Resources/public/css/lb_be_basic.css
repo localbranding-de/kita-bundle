@@ -465,8 +465,9 @@ button#sbtog {
 	text-align:left;	
 }
 #pal_rsce_legend #sort_rsce_field_imageLogo img.gimage {
-	width:20rem;
+	width:24rem;
 	margin-bottom: 0.4rem;
+	text-align:left;
 }
 
 
