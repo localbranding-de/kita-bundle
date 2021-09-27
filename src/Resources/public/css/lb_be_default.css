@@ -8,28 +8,28 @@
 /* ------------------------------ ///// FONT-FACE start ///// ------------------------------ */
 @font-face {
     font-family: 'Lato';
-    src: url('bundles/extendedproductdetail/fonts/Lato/lato-v16-latin-regular.woff2') format('woff2'),
-    url('bundles/extendedproductdetail/fonts/Lato/lato-v16-latin-regular.woff') format('woff');
+    src: url('../fonts/Lato/lato-v16-latin-regular.woff2') format('woff2'),
+    url('../fonts/Lato/lato-v16-latin-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Lato';
-    src: url('bundles/extendedproductdetail/fonts/Lato/lato-v16-latin-700.woff2') format('woff2'),
-    url('bundles/extendedproductdetail/fonts/Lato/lato-v16-latin-700.woff') format('woff');
+    src: url('../fonts/Lato/lato-v16-latin-700.woff2') format('woff2'),
+    url('../fonts/Lato/lato-v16-latin-700.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }@font-face {
     font-family: 'Fira Mono';
-    src: url('bundles/extendedproductdetail/fonts/FiraMono/fira-mono-v8-latin-regular.woff2') format('woff2'),
-    url('bundles/extendedproductdetail/fonts/FiraMono/fira-mono-v8-latin-regular.woff') format('woff');
+    src: url('../fonts/FiraMono/fira-mono-v8-latin-regular.woff2') format('woff2'),
+    url('../fonts/FiraMono/fira-mono-v8-latin-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Fira Mono';
-    src: url('bundles/extendedproductdetail/fonts/FiraMono/fira-mono-v8-latin-700.woff2') format('woff2'),
-    url('bundles/extendedproductdetail/fonts/FiraMono/fira-mono-v8-latin-700.woff') format('woff');
+    src: url('../fonts/FiraMono/fira-mono-v8-latin-700.woff2') format('woff2'),
+    url('../fonts/FiraMono/fira-mono-v8-latin-700.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
