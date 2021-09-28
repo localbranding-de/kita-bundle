@@ -431,10 +431,9 @@ fieldset.tl_box legend {
 	padding-top:20px;
 	border-top: solid 1px var(--cc-midgrey);
 }
-button#save.tl_submit {
+button#save.tl_submit, button#saveNclose.tl_submit, button#saveNcreate.tl_submit, 
+button#saveNduplicate.tl_submit, button#saveNback.tl_submit {
 	margin-right: 20px;
-}
-button#save.tl_submit, button#saveNclose.tl_submit {
 	display: inline-block;
 	font-size: 16px;
 	font-weight: bold;
@@ -449,10 +448,17 @@ button#save.tl_submit, button#saveNclose.tl_submit {
 	color: var(--cc-white);
 	border: solid 2px var(--cc-brandcolor1);
 }
+button#save.tl_submit:hover, button#saveNclose.tl_submit:hover, button#saveNcreate.tl_submit:hover, 
+button#saveNduplicate.tl_submit:hover, button#saveNback.tl_submit:hover {
+	background-color: var(--cc-white);
+	color: var(--cc-brandcolor1);
+}
+/* to proove
 button#saveNclose.tl_submit {
 	border-radius: 2px 0 0 2px;
 	border-right: 0;
 }
+*/
 button#sbtog {
 	height: 40px;
 	line-height:33px;
@@ -467,10 +473,7 @@ button#sbtog {
 #pal_rsce_legend #sort_rsce_field_imageLogo img.gimage {
 	width:24rem;
 	margin-bottom: 0.4rem;
-	text-align:left;
+	text-align:left;	
 }
-
-
-
 
 
