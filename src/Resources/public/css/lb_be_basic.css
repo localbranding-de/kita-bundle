@@ -473,7 +473,8 @@ button#sbtog {
 #pal_rsce_legend #sort_rsce_field_imageLogo img.gimage {
 	width:24rem;
 	margin-bottom: 0.4rem;
-	text-align:left;	
+	text-align:left;
+	height: auto;	
 }
 
 
