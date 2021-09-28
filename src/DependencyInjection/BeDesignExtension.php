@@ -8,14 +8,14 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace LocalbrandingDe\ExtendedProductDetailBundle\DependencyInjection;
+namespace LocalbrandingDe\BeDesignBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ExtendedProductDetailExtension extends Extension
+class BeDesignExtensionExtension extends Extension
 {
     /**
      * {@inheritdoc}
