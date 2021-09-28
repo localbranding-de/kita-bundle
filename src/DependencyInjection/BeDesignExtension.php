@@ -15,7 +15,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class BeDesignExtensionExtension extends Extension
+class BeDesignExtension extends Extension
 {
     /**
      * {@inheritdoc}
