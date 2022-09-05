@@ -8,13 +8,13 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace LocalbrandingDe\BeDesignBundle\ContaoManager;
+namespace LocalbrandingDe\KitaBundleBundleBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use LocalbrandingDe\BeDesignBundle\BeDesignBundle;
+use LocalbrandingDe\KitaBundleBundleBundle\BeDesignBundle;
 
 class Plugin implements BundlePluginInterface
 {
@@ -24,7 +24,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(BeDesignBundle::class)
+            BundleConfig::create(KitaBundleBundleBundle::class)
             ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
