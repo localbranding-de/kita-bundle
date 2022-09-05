@@ -8,10 +8,10 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace LocalbrandingDe\KitaBundleBundleBundle;
+namespace LocalbrandingDe\KitaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class KitaBundleBundleBundle extends Bundle
+class KitaBundle extends Bundle
 {
 }
