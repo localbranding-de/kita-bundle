@@ -8,14 +8,14 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace LocalbrandingDe\BeDesignBundle\DependencyInjection;
+namespace LocalbrandingDe\KitaBundleBundleBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class BeDesignExtension extends Extension
+class KitaBundleBundleExtension extends Extension
 {
     /**
      * {@inheritdoc}
