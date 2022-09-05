@@ -1,7 +1,7 @@
 {
 	"name" : "localbranding-de/kita-bundle",
 	"type" : "contao-bundle",
-	"description" : "kita bundle",
+	"description" : "Kindergarten APP",
 	"license" : "LGPL-3.0-or-later",
 	"version" : "1.0.0",
 	"authors" : [{
