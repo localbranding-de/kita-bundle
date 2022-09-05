@@ -25,20 +25,15 @@
 	},
 	"extra" : {
 		"contao-component-dir": "src/",
-		"contao-manager-plugin" : "LocalbrandingDe\\KitaBundleBundle\\ContaoManager\\Plugin"
+		"contao-manager-plugin" : "LocalbrandingDe\\KitaBundle\\ContaoManager\\Plugin"
 	},
 	"autoload" : {
 		"psr-4" : {
-			"LocalbrandingDe\\KitaBundleBundle\\" : "src/"
-		}
-	},
-	"autoload-dev" : {
-		"psr-4" : {
-			"LocalbrandingDe\\KitaBundleBundle\\Tests\\" : "tests/"
+			"LocalbrandingDe\\KitaBundle\\" : "src/"
 		}
 	},
 	"support" : {
-		"issues" : "https://github.com/localbranding-de/kita-bundle-bundle/issues",
-		"source" : "https://github.com/localbranding-de/kita-bundle-bundle"
+		"issues" : "https://github.com/localbranding-de/kita-bundle/issues",
+		"source" : "https://github.com/localbranding-de/kita-bundle"
 	}
 }
