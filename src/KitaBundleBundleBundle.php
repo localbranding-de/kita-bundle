@@ -8,10 +8,10 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace LocalbrandingDe\BeDesignBundle;
+namespace LocalbrandingDe\KitaBundleBundleBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class BeDesignBundle extends Bundle
+class KitaBundleBundleBundle extends Bundle
 {
 }
