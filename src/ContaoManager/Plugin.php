@@ -14,7 +14,7 @@ use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use LocalbrandingDe\KitaBundle\BeDesignBundle;
+use LocalbrandingDe\KitaBundle\KitaBundle;
 
 class Plugin implements BundlePluginInterface
 {
